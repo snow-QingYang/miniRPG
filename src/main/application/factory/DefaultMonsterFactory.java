@@ -1,8 +1,7 @@
 package main.application.factory;
 
 import main.entities.DefaultMonster;
-import main.interfaces.Monster;
-import main.interfaces.MonsterFactory;
+import main.interfaces.*;
 /**
  * DefaultMonsterFactory class implements the MonsterFactory interface to create instances
  * of DefaultMonster with the specified health.

@@ -1,6 +1,5 @@
 package main.application.usecase;
 
-import main.entities.*;
 import main.interfaces.*;
 import java.util.Random;
 

@@ -1,7 +1,6 @@
 package main.application.usecase;
 
-import main.interfaces.Monster;
-import main.interfaces.MonsterFactory;
+import main.interfaces.*;
 /**
  * CreateMonsterUseCase class represents a use case for creating monsters using a provided
  * MonsterFactory instance.

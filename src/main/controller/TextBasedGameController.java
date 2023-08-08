@@ -8,6 +8,9 @@ import main.presenter.ConsoleGamePresenter;
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * Controller class responsible for managing the Text-Based RPG game flow.
+ */
 public class TextBasedGameController implements GameController {
     private static final int MAX_MONSTER_HEALTH = 100;
     private static final int EXPERIENCE_PER_MONSTER = 20;
@@ -21,7 +24,11 @@ public class TextBasedGameController implements GameController {
     private final Scanner scanner;
     private final Random random;
 
-
+    /**
+     * Constructs a TextBasedGameController instance.
+     *
+     * @param player The player in the game.
+     */
     public TextBasedGameController( Player player
             ) {
 

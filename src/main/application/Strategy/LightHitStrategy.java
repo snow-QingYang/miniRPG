@@ -1,6 +1,5 @@
 package main.application.Strategy;
 
-import main.entities.DefaultPlayer;
 import main.interfaces.*;
 
 /**
