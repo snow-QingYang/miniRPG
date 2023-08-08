@@ -1,6 +1,6 @@
 package main.presenter;
 import main.entities.*;
-import main.interfaces.GamePresenter;
+import main.interfaces.*;
 /**
  * ConsoleGamePresenter class implements the GamePresenter interface and is responsible for
  * displaying game-related information to the console.

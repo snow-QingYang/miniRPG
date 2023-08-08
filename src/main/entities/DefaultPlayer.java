@@ -1,11 +1,13 @@
 package main.entities;
 
+import main.interfaces.Player;
+
 import java.util.Random;
 /**
  * Represents a player in the text-based RPG game.
  */
 
-public class Player {
+public class DefaultPlayer implements Player {
     private int health;
     private int experience;
     private int attackAbility;
@@ -16,7 +18,7 @@ public class Player {
      *
      * @param health The initial health of the player.
      */
-    public Player(int health) {
+    public DefaultPlayer(int health) {
         this.health = health;
         this.experience = 0;
         this.attackAbility = 10;
@@ -88,10 +90,11 @@ public class Player {
     /**
      * Calculate damage based on the player's attack ability and a random number generator.
      *
-     * @param random The random number generator used for damage calculation.
      * @return The calculated damage.
      */
-    public int calculateDamage(Random random) {return random.nextInt(attackAbility) + 1;}
+    public int calculateDamage() {
+        Random random = new Random();
+        return random.nextInt(attackAbility) + 1;}
     /**
      * Level up the player, increasing level, health, and attack ability.
      */

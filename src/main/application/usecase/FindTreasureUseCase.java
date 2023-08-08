@@ -1,7 +1,7 @@
 package main.application.usecase;
 
 import main.entities.*;
-import main.interfaces.GamePresenter;
+import main.interfaces.*;
 import java.util.Random;
 
 /**

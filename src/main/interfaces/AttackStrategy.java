@@ -1,7 +1,7 @@
 package main.interfaces;
 
-import main.entities.Player;
-import java.util.Random;
+import main.entities.DefaultPlayer;
+
 public interface AttackStrategy {
-    int calculateDamage(Player player, Random random);
+    int calculateDamage(Player player);
 }

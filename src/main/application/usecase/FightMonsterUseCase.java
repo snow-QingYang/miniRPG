@@ -1,14 +1,8 @@
 package main.application.usecase;
 
+import main.application.Strategy.*;
+import main.interfaces.*;
 
-import main.interfaces.AttackStrategy;
-import main.application.Strategy.HeavyHitStrategy;
-import main.application.Strategy.LightHitStrategy;
-import main.entities.*;
-import main.interfaces.GamePresenter;
-import main.interfaces.Monster;
-
-import java.util.Random;
 import java.util.Scanner;
 /**
  * FightMonsterUseCase class represents a use case for battles between a player and a monster.
@@ -33,9 +27,8 @@ public class FightMonsterUseCase {
      * @param player The player participating in the battle.
      * @param monster The monster the player is fighting against.
      * @param experiencePerMonster The amount of experience gained when defeating a monster.
-     * @param random The random number generator used for various calculations.
      */
-    public void execute(Player player, Monster monster, int experiencePerMonster, Random random) {
+    public void execute(Player player, Monster monster, int experiencePerMonster) {
         Scanner scanner = new Scanner(System.in);
 
         while (!player.isDead() && !monster.isDead()) {
@@ -62,7 +55,7 @@ public class FightMonsterUseCase {
                 presenter.displayMessage("Invalid choice! Try again.");
                 continue;
             }
-            int player_damage = strategy.calculateDamage(player,random);
+            int player_damage = strategy.calculateDamage(player);
             int monster_damage = monster.calculateDamage();
             player.takeDamage(monster_damage);
             monster.takeDamage(player_damage);

@@ -1,7 +1,6 @@
 package main.application.usecase;
 
-import main.entities.Player;
-import main.interfaces.GamePresenter;
+import main.interfaces.*;
 
 /**
  * LevelUpUseCase class represents a use case for handling player level-ups based on experience gained.

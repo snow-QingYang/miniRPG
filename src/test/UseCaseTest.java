@@ -17,7 +17,7 @@ public class UseCaseTest {
 
     @BeforeEach
     public void setUp() {
-        player = new Player(100);
+        player = (Player) new DefaultPlayer(100);
         ConsoleGamePresenter presenter = new ConsoleGamePresenter();
         levelUpUseCase = new LevelUpUseCase(presenter, 20);
         findTreasureUseCase = new FindTreasureUseCase(presenter);
