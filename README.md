@@ -1,6 +1,6 @@
 # Text-Based RPG Game
 
-This is a simple text-based RPG game written in Java. The game allows players to explore an imaginary world, encounter monsters, gain experience, and find treasures.
+This is a simple text-based RPG game written in Java. The game allows players to explore an imaginary world.
 
 ## User Story
 
@@ -26,4 +26,4 @@ This program demonstrates the use of the following design patterns:
 
 ## Code Quality
 
-The code adheres to SOLID principles and follows good object-oriented design practices. No code smells or violations of SOLID principles or CA are present in the codebase. The code has been structured to promote maintainability and readability.
+The code adheres to SOLID principles and follows Clean Architecture. No code smells or violations of SOLID principles or CA are present in the codebase.
