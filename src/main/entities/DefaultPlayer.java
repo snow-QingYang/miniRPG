@@ -1,6 +1,6 @@
-package main.entities;
+package entities;
 
-import main.interfaces.Player;
+import interfaces.Player;
 
 import java.util.Random;
 /**

@@ -1,4 +1,4 @@
-package main.interfaces;
+package interfaces;
 public interface GamePresenter {
     void displayMessage(String message);
     void displayPlayerStatus(Player player);

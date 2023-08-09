@@ -1,6 +1,6 @@
-package main.entities;
+package entities;
 
-import main.interfaces.Monster;
+import interfaces.Monster;
 
 import java.util.Random;
 /**

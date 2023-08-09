@@ -1,7 +1,7 @@
-package main.application.usecase;
+package application.usecase;
 
-import main.application.Strategy.*;
-import main.interfaces.*;
+import application.Strategy.*;
+import interfaces.*;
 
 import java.util.Scanner;
 /**

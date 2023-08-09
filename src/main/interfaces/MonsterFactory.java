@@ -1,4 +1,4 @@
-package main.interfaces;
+package interfaces;
 public interface MonsterFactory {
     Monster createMonster(int health);
 }

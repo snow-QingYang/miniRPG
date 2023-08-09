@@ -1,9 +1,9 @@
-package main.controller;
+package controller;
 
-import main.application.factory.DefaultMonsterFactory;
-import main.application.usecase.*;
-import main.interfaces.*;
-import main.presenter.ConsoleGamePresenter;
+import application.factory.DefaultMonsterFactory;
+import application.usecase.*;
+import interfaces.*;
+import presenter.ConsoleGamePresenter;
 
 import java.util.Random;
 import java.util.Scanner;

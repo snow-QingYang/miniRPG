@@ -1,6 +1,6 @@
-package main.application.usecase;
+package application.usecase;
 
-import main.interfaces.*;
+import interfaces.*;
 
 /**
  * LevelUpUseCase class represents a use case for handling player level-ups based on experience gained.

@@ -1,14 +1,11 @@
-package test;
 import static org.junit.jupiter.api.Assertions.*;
 
-import main.application.usecase.*;
-import main.entities.*;
-import main.interfaces.*;
-import main.presenter.ConsoleGamePresenter;
+import application.usecase.*;
+import entities.DefaultPlayer;
+import interfaces.*;
+import presenter.ConsoleGamePresenter;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import java.util.Random;
 
 public class UseCaseTest {
     private Player player;
@@ -17,7 +14,7 @@ public class UseCaseTest {
 
     @BeforeEach
     public void setUp() {
-        player = (Player) new DefaultPlayer(100);
+        player = new DefaultPlayer(100);
         ConsoleGamePresenter presenter = new ConsoleGamePresenter();
         levelUpUseCase = new LevelUpUseCase(presenter, 20);
         findTreasureUseCase = new FindTreasureUseCase(presenter);

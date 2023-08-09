@@ -1,7 +1,6 @@
-package main;
-import main.controller.TextBasedGameController;
-import main.entities.*;
-import main.interfaces.*;
+import controller.TextBasedGameController;
+import entities.*;
+import interfaces.*;
 
 /**
  * The main class representing the Text-Based RPG game.

@@ -1,9 +1,6 @@
-package test;
-
+import entities.DefaultMonster;
+import interfaces.Monster;
 import static org.junit.jupiter.api.Assertions.*;
-
-import main.entities.*;
-import main.interfaces.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

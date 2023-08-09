@@ -1,6 +1,6 @@
-package main.application.Strategy;
+package application.Strategy;
 
-import main.interfaces.*;
+import interfaces.*;
 
 /**
  * LightHitStrategy class implements the AttackStrategy interface and represents a strategy

@@ -1,6 +1,6 @@
-package main.application.usecase;
+package application.usecase;
 
-import main.interfaces.*;
+import interfaces.*;
 import java.util.Random;
 
 /**
