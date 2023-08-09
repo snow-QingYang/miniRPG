@@ -21,7 +21,7 @@ This program demonstrates the use of the following design patterns:
 
 ## Java Version and Testing Framework
 
-- Java Version: Java 8 or later
+- Java Version: Java 19 or later
 - Testing Framework: JUnit
 
 ## Code Quality
